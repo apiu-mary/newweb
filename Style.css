@@ -358,4 +358,43 @@ display: flex;
  width: 100%;    
                 }        
                 }
- 
+/* .shop ul{
+    list-style: none;
+    
+
+    
+}
+.about ul{
+    list-style: none;
+    position: relative;
+    bottom: 100px;
+    left: 600px;
+
+
+    
+} 
+    
+.               
+  */
+  .all{
+    display: flex;
+    position: relative;
+    top: 400px;
+  }
+  .about ul{
+    padding-left: 150px;
+    list-style: none;
+
+  }
+  .new{
+    padding-left: 100px;
+  }
+  .shop ul{
+    list-style: none;
+  }
+  .welcome{
+    position: relative;
+    bottom: 600px;
+
+    
+  }
