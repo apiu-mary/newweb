@@ -1,0 +1,361 @@
+.nav{
+ list-style: none;  
+ display: flex;
+
+}
+#home{
+    padding-right: 20px;
+}
+#shop{
+    padding-right: 20px;
+
+}
+#dresses{
+    padding-right: 20px;
+
+    
+}
+#about{
+    padding-right: 20px;
+
+}
+@media  (max-width:480px) {
+    .nav
+    {
+        font-size: 10px;
+         }        
+    }
+    @media  (min-width:481px) and (max-width:768px) {
+        .nav
+        {
+            font-size: 15px;    
+        }        
+        }
+        @media  (min-width:769px) and (max-width:992px) {
+            .nav
+            {
+                font-size: 20px;   
+            }        
+            }
+            @media  (min-width:992px) and (max-width:1024px) {
+                .nav
+                {
+                    font-size: 25px;     
+                }        
+                }
+#image{
+    float: right;
+    position: relative;
+    right: 220px;
+    bottom: 180px;
+}
+@media  (max-width:480px) {
+    #image
+    {
+        position: relative;
+        top: 90px;
+        width: 100%;    
+    }        
+    }
+    @media  (min-width:481px) and (max-width:768px) {
+        #image
+        {
+            position: relative;
+            bottom:  100px;
+            width: 30%;
+            right: 550px;    
+        }        
+        }
+        @media  (min-width:769px) and (max-width:992px) {
+            #image
+            {
+                position: relative;
+                bottom: 70px;
+                width: 30%;
+                right:400px;
+   
+            }        
+            }
+            @media  (min-width:992px) and (max-width:1024px) {
+                #image
+                {
+                    position: relative;
+                    top: 90px;
+                    width: 100%;    
+                }        
+                }
+.words{
+    font-size: xx-large;
+    position: relative;
+    left: 190px;
+  
+}
+@media  (max-width:480px) {
+    .words
+    {
+        position: relative;
+        font-size:9px;  
+    }        
+    }
+    @media  (min-width:481px) and (max-width:768px) {
+        .words
+        {
+            position: relative;
+            font-size:20px;
+            right: 50px;   
+        }        
+        }
+@media  (min-width:769px) and (max-width:992px) {
+.words
+{
+position: relative;
+font-size:25px;
+ left: 50px;
+            
+            
+                 
+}        
+}
+@media  (min-width:992px) and (max-width:1024px) {
+ .words
+{
+font-size:20px;   
+                     
+ }        
+ }
+ .selection{
+    font-size: 8px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+    
+ }
+ @media  (min-width:769px) and (max-width:992px) {
+    .selection
+    {  
+      position: relative; 
+      top: 150px;  
+    }        
+    }
+ #imagez{
+    width: 200px;
+ }
+ @media  (min-width:481px) and(max-width:768px) {
+    #imagez
+    {
+        position: relative;
+        top: 30px;
+}
+ }
+ #imagez1{
+    width: 200px;
+ }
+ #imagez2{
+    width: 200px;
+ }
+ @media  (min-width:769px) and (max-width:992px) {
+    #imagez2
+    {
+        width: 25%;
+}
+ }
+ #imagez3{
+    width: 200px;
+ }
+ #view{
+    position: relative;
+    top: 190px;
+    left: 500px;
+ }
+ @media  (max-width:480px) {
+    #view
+    {
+        position: relative;
+        left: 40px;       
+    }
+}
+@media  (min-width:481px) and (max-width:768px) {
+    #view
+    {
+        position: relative; 
+        left: 50px;        
+    }
+}
+@media  (min-width:769px) and (max-width:992px) {
+    #view
+    {
+        position: relative; 
+        left: 50px;        
+    }
+}
+.run{
+    display: flex;
+}
+@media  (max-width:480px) {
+    .run
+    {
+      display: grid;
+        width: 30%;       
+    }
+}
+@media  (min-width:481px) and (max-width:768px) {
+    .run
+    {
+        display: grid;        
+    }
+}
+@media  (min-width:769px) and (max-width:992px) {
+    .run
+    {
+        display: grid;          
+    }
+}
+@media  (min-width:1024px) and (max-width:1200px) {
+    .run
+    {
+        display: grid;
+        
+    }
+}
+    @media  (min-width:481px) and (max-width:768px) {
+        .words
+        {
+            position: relative;
+            font-size:20px;
+            right: 50px;
+             
+        }        
+        }
+ @media  (min-width:769px) and (max-width:992px) {
+.words
+{
+ position: relative;
+font-size:45px;     
+ }        
+ }
+@media  (min-width:992px) and (max-width:1024px) {
+.words
+{
+font-size:55px;
+      
+                }                    }
+ @media  (min-width:992px) and (max-width:1024px) {
+.all
+{
+width: 50%;
+position: relative;
+right: 50px;  
+display: flex;  
+         
+}        
+}
+ 
+ .all{
+    width: 100%;
+    position: relative;
+    top: 100px;
+    
+    
+ }
+ .run{
+    position: relative;
+    top: 300px;
+ }
+ #person2{
+    @media  (min-width:769px) and (max-width:992px) {
+        #person2
+        {
+        
+            width: 50%;
+        }        
+        }
+ }
+ #person1{
+
+ }
+
+ @media  (min-width:769px) and (max-width:992px) {
+    #person1
+    {
+    
+        width: 80%;
+    }        
+    }
+
+ @media  (min-width:768px) and (max-width:992px) {
+    .run
+    {
+        width: 100%;     
+    }        
+    }
+    #imag{
+        position: relative;
+        top: 330px;
+        width: 1000px;
+
+    }
+    .welcome{
+        position: relative;
+        top: 400px;
+    }
+    @media  (max-width:480px) {
+        #imag
+        {
+          
+            /* width: 100%;        */
+        }
+    }
+    @media  (min-width:481px) and (max-width:768px) {
+        #imag
+        {
+        width: 90%;
+        }
+    }
+    @media  (min-width:769px) and (max-width:992px) {
+        #imag
+ {
+  width: 70%;
+}
+    }
+    @media  (min-width:992px) and(max-width:1024px) {
+        #imag
+        { 
+          width: 300px;
+                
+        }
+    }
+    @media  (max-width:480px) {
+        #imag
+        {
+            width: 100%;       
+        }
+    }
+    #face{
+        position: relative;
+        top: 400px;
+    }
+    @media  (max-width:480px) {
+        #face
+        {
+            width: 100%;       
+        }
+    }
+    @media  (min-width:481px) and (max-width:768px) {
+        #face
+        {
+            width: 100%;    
+        }        
+        }
+        @media  (min-width:769px) and (max-width:992px) {
+            #face
+            {
+               width: 100%;
+            }        
+            }
+            @media  (min-width:992px) and (max-width:1024px) {
+                #face
+                {
+ width: 100%;    
+                }        
+                }
+ 
